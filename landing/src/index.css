@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.buy-button {
+  @apply select-none w-full p-4 text-center flex flex-row items-center justify-center text-white border-2 border-white rounded-lg transition-all ease-in-out hover:bg-white hover:contrast-75 hover:text-blue-gray hover:shadow-[0px_0px_60px_0px_rgba(59,2,2,2.2)] hover:shadow-white;
+}
+
+.best-sign-up-button {
+  @apply bg-transparent border-2 h-full py-4 px-10 rounded-lg border-white transition-all ease-in-out hover:bg-white hover:contrast-75 hover:text-blue-gray hover:shadow-[0px_0px_60px_0px_rgba(59,2,2,2.2)] hover:shadow-white;
+}
+
+.brown-sign-up-button {
+  @apply bg-transparent text-amber-9 rounded-lg border-amber-9 border-2 transition ease-in-out duration-700 hover:bg-amber-9 hover:text-amber-2;
+}
